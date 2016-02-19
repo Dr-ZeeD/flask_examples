@@ -8,7 +8,7 @@ document with a form. Run it using ::
 
 Open your browser and head to http://127.0.0.1:5000/ and look at the result.
 """
-from flask import Flask, render_template_string, flash, redirect, url_for
+from flask import Flask, render_template_string, flash
 from flask_wtf import Form
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
